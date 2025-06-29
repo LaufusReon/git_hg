@@ -1,0 +1,298 @@
+<html>
+  <head>
+    <link rel="preconnect" href="https://fonts.gstatic.com/" crossorigin="" />
+    <link
+      rel="stylesheet"
+      as="style"
+      onload="this.rel='stylesheet'"
+      href="https://fonts.googleapis.com/css2?display=swap&amp;family=Noto+Sans%3Awght%40400%3B500%3B700%3B900&amp;family=Work+Sans%3Awght%40400%3B500%3B700%3B900"
+    />
+
+    <title>Stitch Design</title>
+    <link rel="icon" type="image/x-icon" href="data:image/x-icon;base64," />
+
+    <script src="https://cdn.tailwindcss.com?plugins=forms,container-queries"></script>
+  </head>
+  <body>
+    <div class="relative flex size-full min-h-screen flex-col bg-gray-50 group/design-root overflow-x-hidden" style='font-family: "Work Sans", "Noto Sans", sans-serif;'>
+      <div class="layout-container flex h-full grow flex-col">
+        <div class="gap-1 px-6 flex flex-1 justify-center py-5">
+          <div class="layout-content-container flex flex-col w-80">
+            <div class="flex h-full min-h-[700px] flex-col justify-between bg-gray-50 p-4">
+              <div class="flex flex-col gap-4">
+                <h1 class="text-[#0f141a] text-base font-medium leading-normal">Control de Producción</h1>
+                <div class="flex flex-col gap-2">
+                  <div class="flex items-center gap-3 px-3 py-2">
+                    <div class="text-[#0f141a]" data-icon="House" data-size="24px" data-weight="regular">
+                      <svg xmlns="http://www.w3.org/2000/svg" width="24px" height="24px" fill="currentColor" viewBox="0 0 256 256">
+                        <path
+                          d="M218.83,103.77l-80-75.48a1.14,1.14,0,0,1-.11-.11,16,16,0,0,0-21.53,0l-.11.11L37.17,103.77A16,16,0,0,0,32,115.55V208a16,16,0,0,0,16,16H96a16,16,0,0,0,16-16V160h32v48a16,16,0,0,0,16,16h48a16,16,0,0,0,16-16V115.55A16,16,0,0,0,218.83,103.77ZM208,208H160V160a16,16,0,0,0-16-16H112a16,16,0,0,0-16,16v48H48V115.55l.11-.1L128,40l79.9,75.43.11.1Z"
+                        ></path>
+                      </svg>
+                    </div>
+                    <p class="text-[#0f141a] text-sm font-medium leading-normal">Dashboard</p>
+                  </div>
+                  <div class="flex items-center gap-3 px-3 py-2">
+                    <div class="text-[#0f141a]" data-icon="Factory" data-size="24px" data-weight="regular">
+                      <svg xmlns="http://www.w3.org/2000/svg" width="24px" height="24px" fill="currentColor" viewBox="0 0 256 256">
+                        <path
+                          d="M116,176a8,8,0,0,1-8,8H80a8,8,0,0,1,0-16h28A8,8,0,0,1,116,176Zm60-8H148a8,8,0,0,0,0,16h28a8,8,0,0,0,0-16Zm72,48a8,8,0,0,1-8,8H16a8,8,0,0,1,0-16H32V88a8,8,0,0,1,12.8-6.4L96,120V88a8,8,0,0,1,12.8-6.4l38.74,29.05L159.1,29.74A16.08,16.08,0,0,1,174.94,16h18.12A16.08,16.08,0,0,1,208.9,29.74l15,105.13s.08.78.08,1.13v72h16A8,8,0,0,1,248,216Zm-85.86-94.4,8.53,6.4h36.11L193.06,32H174.94ZM48,208H208V144H168a8,8,0,0,1-4.8-1.6l-14.4-10.8,0,0L112,104v32a8,8,0,0,1-12.8,6.4L48,104Z"
+                        ></path>
+                      </svg>
+                    </div>
+                    <p class="text-[#0f141a] text-sm font-medium leading-normal">Producción</p>
+                  </div>
+                  <div class="flex items-center gap-3 px-3 py-2">
+                    <div class="text-[#0f141a]" data-icon="Warehouse" data-size="24px" data-weight="regular">
+                      <svg xmlns="http://www.w3.org/2000/svg" width="24px" height="24px" fill="currentColor" viewBox="0 0 256 256">
+                        <path
+                          d="M240,184h-8V57.9l9.67-2.08a8,8,0,1,0-3.35-15.64l-224,48A8,8,0,0,0,16,104a8.16,8.16,0,0,0,1.69-.18L24,102.47V184H16a8,8,0,0,0,0,16H240a8,8,0,0,0,0-16ZM40,99,216,61.33V184H192V128a8,8,0,0,0-8-8H72a8,8,0,0,0-8,8v56H40Zm136,53H80V136h96ZM80,168h96v16H80Z"
+                        ></path>
+                      </svg>
+                    </div>
+                    <p class="text-[#0f141a] text-sm font-medium leading-normal">Inventario</p>
+                  </div>
+                  <div class="flex items-center gap-3 px-3 py-2 rounded-lg bg-[#e9edf2]">
+                    <div class="text-[#0f141a]" data-icon="Users" data-size="24px" data-weight="fill">
+                      <svg xmlns="http://www.w3.org/2000/svg" width="24px" height="24px" fill="currentColor" viewBox="0 0 256 256">
+                        <path
+                          d="M164.47,195.63a8,8,0,0,1-6.7,12.37H10.23a8,8,0,0,1-6.7-12.37,95.83,95.83,0,0,1,47.22-37.71,60,60,0,1,1,66.5,0A95.83,95.83,0,0,1,164.47,195.63Zm87.91-.15a95.87,95.87,0,0,0-47.13-37.56A60,60,0,0,0,144.7,54.59a4,4,0,0,0-1.33,6A75.83,75.83,0,0,1,147,150.53a4,4,0,0,0,1.07,5.53,112.32,112.32,0,0,1,29.85,30.83,23.92,23.92,0,0,1,3.65,16.47,4,4,0,0,0,3.95,4.64h60.3a8,8,0,0,0,7.73-5.93A8.22,8.22,0,0,0,252.38,195.48Z"
+                        ></path>
+                      </svg>
+                    </div>
+                    <p class="text-[#0f141a] text-sm font-medium leading-normal">Empleados</p>
+                  </div>
+                  <div class="flex items-center gap-3 px-3 py-2">
+                    <div class="text-[#0f141a]" data-icon="PresentationChart" data-size="24px" data-weight="regular">
+                      <svg xmlns="http://www.w3.org/2000/svg" width="24px" height="24px" fill="currentColor" viewBox="0 0 256 256">
+                        <path
+                          d="M216,40H136V24a8,8,0,0,0-16,0V40H40A16,16,0,0,0,24,56V176a16,16,0,0,0,16,16H79.36L57.75,219a8,8,0,0,0,12.5,10l29.59-37h56.32l29.59,37a8,8,0,1,0,12.5-10l-21.61-27H216a16,16,0,0,0,16-16V56A16,16,0,0,0,216,40Zm0,136H40V56H216V176ZM104,120v24a8,8,0,0,1-16,0V120a8,8,0,0,1,16,0Zm32-16v40a8,8,0,0,1-16,0V104a8,8,0,0,1,16,0Zm32-16v56a8,8,0,0,1-16,0V88a8,8,0,0,1,16,0Z"
+                        ></path>
+                      </svg>
+                    </div>
+                    <p class="text-[#0f141a] text-sm font-medium leading-normal">Reportes</p>
+                  </div>
+                </div>
+              </div>
+              <div class="flex flex-col gap-1">
+                <div class="flex items-center gap-3 px-3 py-2">
+                  <div class="text-[#0f141a]" data-icon="User" data-size="24px" data-weight="regular">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="24px" height="24px" fill="currentColor" viewBox="0 0 256 256">
+                      <path
+                        d="M230.92,212c-15.23-26.33-38.7-45.21-66.09-54.16a72,72,0,1,0-73.66,0C63.78,166.78,40.31,185.66,25.08,212a8,8,0,1,0,13.85,8c18.84-32.56,52.14-52,89.07-52s70.23,19.44,89.07,52a8,8,0,1,0,13.85-8ZM72,96a56,56,0,1,1,56,56A56.06,56.06,0,0,1,72,96Z"
+                      ></path>
+                    </svg>
+                  </div>
+                  <p class="text-[#0f141a] text-sm font-medium leading-normal">Mi cuenta</p>
+                </div>
+                <div class="flex items-center gap-3 px-3 py-2">
+                  <div class="text-[#0f141a]" data-icon="Bell" data-size="24px" data-weight="regular">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="24px" height="24px" fill="currentColor" viewBox="0 0 256 256">
+                      <path
+                        d="M221.8,175.94C216.25,166.38,208,139.33,208,104a80,80,0,1,0-160,0c0,35.34-8.26,62.38-13.81,71.94A16,16,0,0,0,48,200H88.81a40,40,0,0,0,78.38,0H208a16,16,0,0,0,13.8-24.06ZM128,216a24,24,0,0,1-22.62-16h45.24A24,24,0,0,1,128,216ZM48,184c7.7-13.24,16-43.92,16-80a64,64,0,1,1,128,0c0,36.05,8.28,66.73,16,80Z"
+                      ></path>
+                    </svg>
+                  </div>
+                  <p class="text-[#0f141a] text-sm font-medium leading-normal">Notificaciones</p>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="layout-content-container flex flex-col max-w-[960px] flex-1">
+            <div class="flex flex-wrap justify-between gap-3 p-4">
+              <p class="text-[#0f141a] tracking-light text-[32px] font-bold leading-tight min-w-72">Empleados</p>
+              <button
+                class="flex min-w-[84px] max-w-[480px] cursor-pointer items-center justify-center overflow-hidden rounded-lg h-8 px-4 bg-[#e9edf2] text-[#0f141a] text-sm font-medium leading-normal"
+              >
+                <span class="truncate">Agregar Empleado</span>
+              </button>
+            </div>
+            <div class="px-4 py-3">
+              <label class="flex flex-col min-w-40 h-12 w-full">
+                <div class="flex w-full flex-1 items-stretch rounded-lg h-full">
+                  <div
+                    class="text-[#557091] flex border-none bg-[#e9edf2] items-center justify-center pl-4 rounded-l-lg border-r-0"
+                    data-icon="MagnifyingGlass"
+                    data-size="24px"
+                    data-weight="regular"
+                  >
+                    <svg xmlns="http://www.w3.org/2000/svg" width="24px" height="24px" fill="currentColor" viewBox="0 0 256 256">
+                      <path
+                        d="M229.66,218.34l-50.07-50.06a88.11,88.11,0,1,0-11.31,11.31l50.06,50.07a8,8,0,0,0,11.32-11.32ZM40,112a72,72,0,1,1,72,72A72.08,72.08,0,0,1,40,112Z"
+                      ></path>
+                    </svg>
+                  </div>
+                  <input
+                    placeholder="Buscar empleados..."
+                    class="form-input flex w-full min-w-0 flex-1 resize-none overflow-hidden rounded-lg text-[#0f141a] focus:outline-0 focus:ring-0 border-none bg-[#e9edf2] focus:border-none h-full placeholder:text-[#557091] px-4 rounded-l-none border-l-0 pl-2 text-base font-normal leading-normal"
+                    value=""
+                  />
+                </div>
+              </label>
+            </div>
+            <div class="pb-3">
+              <div class="flex border-b border-[#d2dae5] px-4 gap-8">
+                <a class="flex flex-col items-center justify-center border-b-[3px] border-b-[#163b69] text-[#0f141a] pb-[13px] pt-4" href="#">
+                  <p class="text-[#0f141a] text-sm font-bold leading-normal tracking-[0.015em]">Todos</p>
+                </a>
+                <a class="flex flex-col items-center justify-center border-b-[3px] border-b-transparent text-[#557091] pb-[13px] pt-4" href="#">
+                  <p class="text-[#557091] text-sm font-bold leading-normal tracking-[0.015em]">Activos</p>
+                </a>
+                <a class="flex flex-col items-center justify-center border-b-[3px] border-b-transparent text-[#557091] pb-[13px] pt-4" href="#">
+                  <p class="text-[#557091] text-sm font-bold leading-normal tracking-[0.015em]">Inactivos</p>
+                </a>
+              </div>
+            </div>
+            <div class="px-4 py-3 @container">
+              <div class="flex overflow-hidden rounded-lg border border-[#d2dae5] bg-gray-50">
+                <table class="flex-1">
+                  <thead>
+                    <tr class="bg-gray-50">
+                      <th class="table-54004505-3e56-4050-a649-9436b2cb8699-column-120 px-4 py-3 text-left text-[#0f141a] w-[400px] text-sm font-medium leading-normal">Nombre</th>
+                      <th class="table-54004505-3e56-4050-a649-9436b2cb8699-column-240 px-4 py-3 text-left text-[#0f141a] w-[400px] text-sm font-medium leading-normal">Rol</th>
+                      <th class="table-54004505-3e56-4050-a649-9436b2cb8699-column-360 px-4 py-3 text-left text-[#0f141a] w-[400px] text-sm font-medium leading-normal">
+                        Departamento
+                      </th>
+                      <th class="table-54004505-3e56-4050-a649-9436b2cb8699-column-480 px-4 py-3 text-left text-[#0f141a] w-[400px] text-sm font-medium leading-normal">Horario</th>
+                      <th class="table-54004505-3e56-4050-a649-9436b2cb8699-column-600 px-4 py-3 text-left text-[#0f141a] w-[400px] text-sm font-medium leading-normal">
+                        Rendimiento
+                      </th>
+                      <th class="table-54004505-3e56-4050-a649-9436b2cb8699-column-720 px-4 py-3 text-left text-[#0f141a] w-60 text-[#557091] text-sm font-medium leading-normal">
+                        Acciones
+                      </th>
+                    </tr>
+                  </thead>
+                  <tbody>
+                    <tr class="border-t border-t-[#d2dae5]">
+                      <td class="table-54004505-3e56-4050-a649-9436b2cb8699-column-120 h-[72px] px-4 py-2 w-[400px] text-[#0f141a] text-sm font-normal leading-normal">
+                        Carlos Mendoza
+                      </td>
+                      <td class="table-54004505-3e56-4050-a649-9436b2cb8699-column-240 h-[72px] px-4 py-2 w-[400px] text-[#557091] text-sm font-normal leading-normal">
+                        Operador de Máquina
+                      </td>
+                      <td class="table-54004505-3e56-4050-a649-9436b2cb8699-column-360 h-[72px] px-4 py-2 w-[400px] text-[#557091] text-sm font-normal leading-normal">
+                        Producción
+                      </td>
+                      <td class="table-54004505-3e56-4050-a649-9436b2cb8699-column-480 h-[72px] px-4 py-2 w-[400px] text-[#557091] text-sm font-normal leading-normal">
+                        8:00 AM - 5:00 PM
+                      </td>
+                      <td class="table-54004505-3e56-4050-a649-9436b2cb8699-column-600 h-[72px] px-4 py-2 w-[400px] text-sm font-normal leading-normal">
+                        <div class="flex items-center gap-3">
+                          <div class="w-[88px] overflow-hidden rounded-sm bg-[#d2dae5]"><div class="h-1 rounded-full bg-[#163b69]" style="width: 85.2273%;"></div></div>
+                          <p class="text-[#0f141a] text-sm font-medium leading-normal">75</p>
+                        </div>
+                      </td>
+                      <td class="table-54004505-3e56-4050-a649-9436b2cb8699-column-720 h-[72px] px-4 py-2 w-60 text-[#557091] text-sm font-bold leading-normal tracking-[0.015em]">
+                        Ver detalles
+                      </td>
+                    </tr>
+                    <tr class="border-t border-t-[#d2dae5]">
+                      <td class="table-54004505-3e56-4050-a649-9436b2cb8699-column-120 h-[72px] px-4 py-2 w-[400px] text-[#0f141a] text-sm font-normal leading-normal">
+                        Ana García
+                      </td>
+                      <td class="table-54004505-3e56-4050-a649-9436b2cb8699-column-240 h-[72px] px-4 py-2 w-[400px] text-[#557091] text-sm font-normal leading-normal">
+                        Supervisor de Calidad
+                      </td>
+                      <td class="table-54004505-3e56-4050-a649-9436b2cb8699-column-360 h-[72px] px-4 py-2 w-[400px] text-[#557091] text-sm font-normal leading-normal">
+                        Control de Calidad
+                      </td>
+                      <td class="table-54004505-3e56-4050-a649-9436b2cb8699-column-480 h-[72px] px-4 py-2 w-[400px] text-[#557091] text-sm font-normal leading-normal">
+                        9:00 AM - 6:00 PM
+                      </td>
+                      <td class="table-54004505-3e56-4050-a649-9436b2cb8699-column-600 h-[72px] px-4 py-2 w-[400px] text-sm font-normal leading-normal">
+                        <div class="flex items-center gap-3">
+                          <div class="w-[88px] overflow-hidden rounded-sm bg-[#d2dae5]"><div class="h-1 rounded-full bg-[#163b69]" style="width: 100%;"></div></div>
+                          <p class="text-[#0f141a] text-sm font-medium leading-normal">88</p>
+                        </div>
+                      </td>
+                      <td class="table-54004505-3e56-4050-a649-9436b2cb8699-column-720 h-[72px] px-4 py-2 w-60 text-[#557091] text-sm font-bold leading-normal tracking-[0.015em]">
+                        Ver detalles
+                      </td>
+                    </tr>
+                    <tr class="border-t border-t-[#d2dae5]">
+                      <td class="table-54004505-3e56-4050-a649-9436b2cb8699-column-120 h-[72px] px-4 py-2 w-[400px] text-[#0f141a] text-sm font-normal leading-normal">
+                        Luis Ramírez
+                      </td>
+                      <td class="table-54004505-3e56-4050-a649-9436b2cb8699-column-240 h-[72px] px-4 py-2 w-[400px] text-[#557091] text-sm font-normal leading-normal">
+                        Técnico de Mantenimiento
+                      </td>
+                      <td class="table-54004505-3e56-4050-a649-9436b2cb8699-column-360 h-[72px] px-4 py-2 w-[400px] text-[#557091] text-sm font-normal leading-normal">
+                        Mantenimiento
+                      </td>
+                      <td class="table-54004505-3e56-4050-a649-9436b2cb8699-column-480 h-[72px] px-4 py-2 w-[400px] text-[#557091] text-sm font-normal leading-normal">
+                        7:00 AM - 4:00 PM
+                      </td>
+                      <td class="table-54004505-3e56-4050-a649-9436b2cb8699-column-600 h-[72px] px-4 py-2 w-[400px] text-sm font-normal leading-normal">
+                        <div class="flex items-center gap-3">
+                          <div class="w-[88px] overflow-hidden rounded-sm bg-[#d2dae5]"><div class="h-1 rounded-full bg-[#163b69]" style="width: 100%;"></div></div>
+                          <p class="text-[#0f141a] text-sm font-medium leading-normal">92</p>
+                        </div>
+                      </td>
+                      <td class="table-54004505-3e56-4050-a649-9436b2cb8699-column-720 h-[72px] px-4 py-2 w-60 text-[#557091] text-sm font-bold leading-normal tracking-[0.015em]">
+                        Ver detalles
+                      </td>
+                    </tr>
+                    <tr class="border-t border-t-[#d2dae5]">
+                      <td class="table-54004505-3e56-4050-a649-9436b2cb8699-column-120 h-[72px] px-4 py-2 w-[400px] text-[#0f141a] text-sm font-normal leading-normal">
+                        Sofía Herrera
+                      </td>
+                      <td class="table-54004505-3e56-4050-a649-9436b2cb8699-column-240 h-[72px] px-4 py-2 w-[400px] text-[#557091] text-sm font-normal leading-normal">
+                        Asistente de Producción
+                      </td>
+                      <td class="table-54004505-3e56-4050-a649-9436b2cb8699-column-360 h-[72px] px-4 py-2 w-[400px] text-[#557091] text-sm font-normal leading-normal">
+                        Producción
+                      </td>
+                      <td class="table-54004505-3e56-4050-a649-9436b2cb8699-column-480 h-[72px] px-4 py-2 w-[400px] text-[#557091] text-sm font-normal leading-normal">
+                        8:00 AM - 5:00 PM
+                      </td>
+                      <td class="table-54004505-3e56-4050-a649-9436b2cb8699-column-600 h-[72px] px-4 py-2 w-[400px] text-sm font-normal leading-normal">
+                        <div class="flex items-center gap-3">
+                          <div class="w-[88px] overflow-hidden rounded-sm bg-[#d2dae5]"><div class="h-1 rounded-full bg-[#163b69]" style="width: 77.2727%;"></div></div>
+                          <p class="text-[#0f141a] text-sm font-medium leading-normal">68</p>
+                        </div>
+                      </td>
+                      <td class="table-54004505-3e56-4050-a649-9436b2cb8699-column-720 h-[72px] px-4 py-2 w-60 text-[#557091] text-sm font-bold leading-normal tracking-[0.015em]">
+                        Ver detalles
+                      </td>
+                    </tr>
+                    <tr class="border-t border-t-[#d2dae5]">
+                      <td class="table-54004505-3e56-4050-a649-9436b2cb8699-column-120 h-[72px] px-4 py-2 w-[400px] text-[#0f141a] text-sm font-normal leading-normal">
+                        Javier Torres
+                      </td>
+                      <td class="table-54004505-3e56-4050-a649-9436b2cb8699-column-240 h-[72px] px-4 py-2 w-[400px] text-[#557091] text-sm font-normal leading-normal">
+                        Coordinador de Logística
+                      </td>
+                      <td class="table-54004505-3e56-4050-a649-9436b2cb8699-column-360 h-[72px] px-4 py-2 w-[400px] text-[#557091] text-sm font-normal leading-normal">
+                        Logística
+                      </td>
+                      <td class="table-54004505-3e56-4050-a649-9436b2cb8699-column-480 h-[72px] px-4 py-2 w-[400px] text-[#557091] text-sm font-normal leading-normal">
+                        10:00 AM - 7:00 PM
+                      </td>
+                      <td class="table-54004505-3e56-4050-a649-9436b2cb8699-column-600 h-[72px] px-4 py-2 w-[400px] text-sm font-normal leading-normal">
+                        <div class="flex items-center gap-3">
+                          <div class="w-[88px] overflow-hidden rounded-sm bg-[#d2dae5]"><div class="h-1 rounded-full bg-[#163b69]" style="width: 90.9091%;"></div></div>
+                          <p class="text-[#0f141a] text-sm font-medium leading-normal">80</p>
+                        </div>
+                      </td>
+                      <td class="table-54004505-3e56-4050-a649-9436b2cb8699-column-720 h-[72px] px-4 py-2 w-60 text-[#557091] text-sm font-bold leading-normal tracking-[0.015em]">
+                        Ver detalles
+                      </td>
+                    </tr>
+                  </tbody>
+                </table>
+              </div>
+              <style>
+                          @container(max-width:120px){.table-54004505-3e56-4050-a649-9436b2cb8699-column-120{display: none;}}
+                @container(max-width:240px){.table-54004505-3e56-4050-a649-9436b2cb8699-column-240{display: none;}}
+                @container(max-width:360px){.table-54004505-3e56-4050-a649-9436b2cb8699-column-360{display: none;}}
+                @container(max-width:480px){.table-54004505-3e56-4050-a649-9436b2cb8699-column-480{display: none;}}
+                @container(max-width:600px){.table-54004505-3e56-4050-a649-9436b2cb8699-column-600{display: none;}}
+                @container(max-width:720px){.table-54004505-3e56-4050-a649-9436b2cb8699-column-720{display: none;}}
+              </style>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
