@@ -1,0 +1,23 @@
+{
+  "name": "discord_bot",
+  "version": "1.0.0",
+  "description": "",
+  "main": "bot_main_code.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "bot_main_code.js",
+    "dev": "nodemon bot_main_code.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "dependencies": {
+    "@discordjs/voice": "^0.19.0",
+    "@snazzah/davey": "^0.1.7",
+    "dotenv": "^17.2.2",
+    "ffmpeg-static": "^5.2.0",
+    "prism-media": "^1.3.5",
+    "ytdl-core": "^4.11.5"
+  }
+}
